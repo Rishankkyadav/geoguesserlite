@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GeoGuess Lite</title>
+  
+  <!-- Fonts and Styles -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    GeoGuess Lite
+  </header>
+
+  <!-- Game Section -->
+  <div id="game">
+    <div id="photo-container">
+      <img id="street-image" src="images/1.jpg" alt="Street View" />
+    </div>
+    <div id="map"></div>
+  </div>
+
+  <!-- Controls Section -->
+  <div id="controls">
+    <button id="guess-btn" disabled>Make Guess</button>
+    <button id="next-btn" disabled>Next Round</button>
+    <div id="info">
+      <p><strong>Score:</strong> <span id="score">0</span></p>
+      <p><strong>Distance:</strong> <span id="distance">-</span> km</p>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="locations.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
