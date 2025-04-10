@@ -1,14 +1,20 @@
 
-# GeoGuess Lite
+## Hosting
 
-GeoGuess Lite is an interactive location-guessing game inspired by GeoGuessr. Players view a landmark image, place a guess on the map, and earn points based on proximity to the correct location.
+The project is hosted using GitHub Pages and can be accessed via the following link:
 
-## Features
-- Interactive map using Leaflet and OpenStreetMap.
-- Dynamic scoring based on accuracy.
-- Famous landmarks as gameplay images.
+[GeoGuess Lite - Play Now](https://your-username.github.io/GeoGuessLite/)
 
-## How to Play
-1. Click on the map to guess the location of the landmark shown.
-2. Press **Make Guess** to see your score and distance.
-3. Move to the next round with **Next
+Replace "your-username" with your actual GitHub username to use the correct link.
+
+## Contributing
+
+This is an open-source project. Contributions are welcome to improve features, enhance the user experience, or expand the landmark database. To contribute:
+1. Fork the repository.
+2. Make changes or additions in a separate branch.
+3. Submit a pull request for review.
+
+## License
+
+GeoGuess Lite is open source and available under the MIT License. You are free to use, modify, and distribute the code as per the license terms.
+
