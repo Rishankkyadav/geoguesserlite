@@ -1,20 +1,38 @@
+# GeoGuess Lite
 
-## Hosting
+GeoGuess Lite is an interactive game where players guess the location of famous landmarks by clicking on a world map. It provides an engaging way to test geographical knowledge with a straightforward design.
 
-The project is hosted using GitHub Pages and can be accessed via the following link:
+---
 
-[GeoGuess Lite - Play Now](https://your-username.github.io/GeoGuessLite/)
+## Features
 
-Replace "your-username" with your actual GitHub username to use the correct link.
+- **Interactive Map**: Players can click on a world map powered by Leaflet and OpenStreetMap to place their guesses.
+- **Dynamic Scoring**: Scores are calculated based on the accuracy of guesses, with a maximum of 5000 points per round.
+- **Landmark Images**: A curated selection of landmark images from around the world.
+- **Responsive Layout**: Optimized for different screen sizes for seamless gameplay.
 
-## Contributing
+---
 
-This is an open-source project. Contributions are welcome to improve features, enhance the user experience, or expand the landmark database. To contribute:
-1. Fork the repository.
-2. Make changes or additions in a separate branch.
-3. Submit a pull request for review.
+## How to Play
 
-## License
+1. View the landmark image displayed on the left of the screen.
+2. Click on the map to place your guess for the landmark’s location.
+3. Press the **"Make Guess"** button to evaluate your guess.
+   - The correct location will be marked, and your score based on proximity will be displayed.
+4. Proceed to the next round by clicking the **"Next Round"** button.
+5. Play through all rounds to see your final score.
 
-GeoGuess Lite is open source and available under the MIT License. You are free to use, modify, and distribute the code as per the license terms.
+---
+
+## Technologies Used
+
+- **HTML**: Structures the game and content.
+- **CSS**: Styles the layout for a clean, modern design.
+- **JavaScript**: Implements game logic, interactivity, and scoring.
+- **Leaflet**: Powers the interactive map functionality.
+- **OpenStreetMap**: Provides map tiles for an engaging user experience.
+
+---
+
+
 
